@@ -35,7 +35,7 @@ In 2019, all subscriptions remain in Payment Not Started, indicating no interact
 
 Despite this improvement, top-of-funnel drop-off remains significant each year, with many users failing to initiate payment. Only a minority of subscriptions reach the Complete stage, pointing to friction or abandonment within the payment journey. Both user-side and vendor-side errors persist, highlighting opportunities to improve checkout reliability and the overall payment experience.
 
-(payment_funnel_by_year.png)
+![Payment Funnel Distribution by Order Year](payment_funnel_by_year.png)
 
 #### Year-over-Year Trends in Payment Funnel Stages
 This visualization tracks how subscriptions progress through the payment funnel over time, normalized by year to enable comparison independent of total subscription volume.
