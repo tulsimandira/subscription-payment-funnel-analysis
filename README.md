@@ -6,7 +6,7 @@ A significant number of subscriptions remain unpaid, indicating potential fricti
 ## Business Problem
 The finance team has noticed that many subscriptions haven’t been paid for, so they reached out to the product team to understand whether there are friction points in the online payment portal and how these may be impacting the conversion rate (the percentage of subscriptions that successfully convert to a paid subscription).
 
-![Subscription Payment Funnel Flowchart](flowchart.png)
+![Subscription Payment Funnel Flowchart](Flowchart.png)
 
 
 ---
