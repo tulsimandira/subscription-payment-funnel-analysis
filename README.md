@@ -1,4 +1,3 @@
-# subscription-payment-funnel-analysis
 # Payment Funnel Analysis
 
 ## Executive Summary
