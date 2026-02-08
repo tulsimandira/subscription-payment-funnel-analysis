@@ -44,11 +44,14 @@ User engagement with the payment flow improves after 2019, with a declining shar
 
 Payment completion rates show a steady upward trend, reflecting gradual improvements in conversion efficiency. Despite these gains, early-stage drop-off remains the largest friction point, with many users still failing to start the payment process. Error-related stages remain relatively small but persistent, highlighting opportunities to improve payment submission accuracy and third-party processing reliability.
 
+![Year-over-Year Trends](yoy_funnel_trends.png)
+
 #### Payment Error Distribution
 This visualization shows the distribution of subscriptions with and without payment errors. While the majority of subscriptions do not encounter errors, a meaningful share experience at least one payment issue during the checkout process.
 
 The presence of payment errors indicates opportunities to improve checkout reliability, including clearer validation during payment submission and more robust handling of third-party payment processing failures. Although errors are not the primary driver of funnel drop-off, reducing them could contribute to incremental gains in payment completion and overall user experience.
 
+![Payment Error Distribution](payment_error_distribution.png)
 ---
 
 ## Business Recommendations
