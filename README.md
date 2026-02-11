@@ -1,8 +1,7 @@
 # Payment Funnel Analysis
 
 🔗 **Live Interactive Notebook (Hex):**  
-https://github.com/tulsimandira/subscription-payment-funnel-analysis
-
+https://app.hex.tech/big-sql-energy/hex/Project-1-Payment-Funnel-Analysis-032ORU7WmiwcdAlm0E5Y1l/draft/logic
 
 ---
 
