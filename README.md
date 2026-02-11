@@ -1,5 +1,11 @@
 # Payment Funnel Analysis
 
+🔗 **Live Interactive Notebook (Hex):**  
+https://github.com/tulsimandira/subscription-payment-funnel-analysis
+
+
+---
+
 ## Executive Summary
 
 A significant share of subscriptions are not converting into paid customers, directly impacting revenue realization. This project reconstructs the end-to-end payment funnel using SQL to identify where and why users drop off in the payment journey and quantify how friction within the payment portal impacts paid conversion.
@@ -13,12 +19,12 @@ These findings highlight two high-impact opportunities: improving payment initia
 ## Business Problem
 
 The finance team observed that a significant number of subscriptions were not converting into paid customers and partnered with the product team to identify where and why users drop off in the payment journey, and whether friction within the online payment portal is negatively impacting conversion rates (the percentage of subscriptions that successfully convert to paid subscriptions).
+
 ![Subscription Payment Funnel Flowchart](Flowchart.png)
 
 ![Payment Funnel Distribution by Order Year](payment_funnel_by_year.png)
 
 ![Payment Error Distribution](payment_error_distribution.png)
-
 
 ---
 
@@ -61,7 +67,6 @@ Overall, the data indicates that improving payment initiation and reducing check
 
 ![Payment Funnel Distribution by Order Year](payment_funnel_by_year.png)
 
-
 ---
 
 ### Year-over-Year Trends in Payment Funnel Stages
@@ -88,7 +93,6 @@ Out of all subscriptions, 83.05% did not experience a payment error, while 16.95
 Importantly, this segment consists of users who have already demonstrated purchase intent. As a result, improving payment reliability (submission validation and third-party processing stability) represents a high-leverage opportunity to drive incremental conversion gains without requiring structural changes to the broader funnel.
 
 ![Payment Error Distribution](payment_error_distribution.png)
-
 
 ---
 
