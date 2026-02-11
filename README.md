@@ -1,31 +1,43 @@
 # Payment Funnel Analysis
 
 ## Executive Summary
-A significant number of subscriptions remain unpaid, indicating potential friction in the online payment process and negatively impacting revenue. This analysis identifies pain points within the payment portal and provides actionable recommendations to improve successful payment conversion using SQL and a data science notebook to build a product funnel analysis.
+
+A significant share of subscriptions are not converting into paid customers, directly impacting revenue realization. This project reconstructs the end-to-end payment funnel using SQL to identify where and why users drop off in the payment journey and quantify how friction within the payment portal impacts paid conversion.
+
+The analysis shows that approximately one-third of subscriptions fail to initiate the payment process, representing the largest revenue leakage point in the funnel. While completion rates have improved year-over-year, a smaller but persistent portion of users encounter checkout errors.
+
+These findings highlight two high-impact opportunities: improving payment initiation (top-of-funnel activation) and increasing checkout reliability to drive measurable gains in paid conversion.
+
+---
 
 ## Business Problem
-The finance team has noticed that many subscriptions haven’t been paid for, so they reached out to the product team to understand whether there are friction points in the online payment portal and how these may be impacting the conversion rate (the percentage of subscriptions that successfully convert to a paid subscription).
 
+The finance team observed that a significant number of subscriptions were not converting into paid customers and partnered with the product team to identify where and why users drop off in the payment journey, and whether friction within the online payment portal is negatively impacting conversion rates (the percentage of subscriptions that successfully convert to paid subscriptions).
 ![Subscription Payment Funnel Flowchart](Flowchart.png)
-![Payment Funnel Distribution by Order Year](payment_funnel_by_year.png)
-![Payment Error Distribution](payment_error_distribution.png)
 
+![Payment Funnel Distribution by Order Year](payment_funnel_by_year.png)
+
+![Payment Error Distribution](payment_error_distribution.png)
 
 
 ---
 
 ## Methodology
-- Exploratory Data Analysis (EDA)
-- Product Funnel Analysis
-- Data Visualization
+
+- Exploratory Data Analysis (EDA)  
+- Product Funnel Analysis  
+- Data Visualization  
+
+---
 
 ## Skills
-- SQL (CTEs, CASE statements, subqueries, window functions)
-- Data Visualization
-- Data Wrangling
-- Data Cleaning
-- Data Science Notebook
-- Snowflake Data Warehouse
+
+- SQL (CTEs, CASE statements, subqueries, window functions)  
+- Data Visualization  
+- Data Wrangling  
+- Data Cleaning  
+- Data Science Notebook  
+- Snowflake Data Warehouse  
 
 ---
 
@@ -33,38 +45,63 @@ The finance team has noticed that many subscriptions haven’t been paid for, so
 
 ### Results
 
-#### Payment Funnel Distribution by Order Year
-This chart shows how subscriptions are distributed across payment funnel stages by order year, highlighting where users drop off and how engagement with the payment flow has evolved over time.
+### Payment Funnel Distribution by Order Year
 
-In 2019, all subscriptions remain in Payment Not Started, indicating no interaction with the payment portal. From 2022 onward, subscriptions are more evenly distributed across funnel stages, suggesting increased adoption of the payment workflow.
+The year-over-year funnel analysis highlights a persistent top-of-funnel drop-off, with a meaningful share of subscriptions never initiating payment.
 
-Despite this improvement, top-of-funnel drop-off remains significant each year, with many users failing to initiate payment. Only a minority of subscriptions reach the Complete stage, pointing to friction or abandonment within the payment journey. Both user-side and vendor-side errors persist, highlighting opportunities to improve checkout reliability and the overall payment experience.
+- **2022:** 34.48% of subscriptions did not start the payment process, while 20.69% successfully reached the Complete stage.  
+- **2023:** Non-starters increased to 38.46%, though completion improved slightly to 23.08%.  
+- **2024:** Early-stage drop-off declined to 33.33%, and the completion rate rose further to 25.00%, indicating gradual conversion improvement.  
+
+While completion rates show steady progress, roughly one-third of subscriptions still fail to initiate payment each year, representing the largest leakage point in the funnel.
+
+Additionally, payment reliability remains an opportunity area. Vendor-related outcomes accounted for 6.90% of subscriptions in 2022 and 8.33% vendor processing errors in 2024, suggesting both system-side and user-side friction continue to impact final conversion.
+
+Overall, the data indicates that improving payment initiation and reducing checkout friction would likely yield the highest conversion lift.
 
 ![Payment Funnel Distribution by Order Year](payment_funnel_by_year.png)
 
-#### Year-over-Year Trends in Payment Funnel Stages
-This visualization tracks how subscriptions progress through the payment funnel over time, normalized by year to enable comparison independent of total subscription volume.
 
-User engagement with the payment flow improves after 2019, with a declining share of subscriptions that never initiate payment. Participation in downstream funnel stages increases over time, indicating broader adoption of the payment process.
+---
 
-Payment completion rates show a steady upward trend, reflecting gradual improvements in conversion efficiency. Despite these gains, early-stage drop-off remains the largest friction point, with many users still failing to start the payment process. Error-related stages remain relatively small but persistent, highlighting opportunities to improve payment submission accuracy and third-party processing reliability.
+### Year-over-Year Trends in Payment Funnel Stages
+
+This visualization tracks the percentage distribution of subscriptions across funnel stages by year, enabling normalized comparison independent of total subscription volume.
+
+- In 2019, 100% of subscriptions remained in “User has not started the payment process,” indicating no engagement with the payment portal.  
+- By 2022, non-starters declined to 34.48%, with 13.79% opening the payment widget, 3.45% entering payment details, and 20.69% reaching Complete.  
+- In 2023, early-stage drop-off increased slightly to 38.46%, while completion improved to 23.08%. Engagement deeper in the funnel also strengthened, with 15.38% opening the widget and 7.69% entering payment details.  
+- In 2024, non-starters declined again to 33.33%, and completion reached its highest level at 25.00%, signaling continued conversion improvement. However, vendor-related processing errors remained present (8.33% in 2024), and submission-stage friction persisted.  
+
+Overall, the data shows clear post-2019 adoption of the payment workflow and steady improvements in completion rates. Despite this progress, approximately one-third of subscriptions still fail to initiate payment each year, making top-of-funnel engagement the most significant opportunity for conversion lift.
 
 ![Year-over-Year Trends](yoy_funnel_trends.png)
 
-#### Payment Error Distribution
-This visualization shows the distribution of subscriptions with and without payment errors. While the majority of subscriptions do not encounter errors, a meaningful share experience at least one payment issue during the checkout process.
+---
 
-The presence of payment errors indicates opportunities to improve checkout reliability, including clearer validation during payment submission and more robust handling of third-party payment processing failures. Although errors are not the primary driver of funnel drop-off, reducing them could contribute to incremental gains in payment completion and overall user experience.
+### Subscriptions With and Without Payment Errors
+
+This visualization shows the distribution of subscriptions based on whether they encountered at least one payment error during the checkout process.
+
+Out of all subscriptions, 83.05% did not experience a payment error, while 16.95% encountered at least one error event. Although the majority of users complete checkout without technical issues, nearly 1 in 6 subscriptions experiencing an error represents a meaningful friction point.
+
+Importantly, this segment consists of users who have already demonstrated purchase intent. As a result, improving payment reliability (submission validation and third-party processing stability) represents a high-leverage opportunity to drive incremental conversion gains without requiring structural changes to the broader funnel.
 
 ![Payment Error Distribution](payment_error_distribution.png)
+
+
 ---
 
 ## Business Recommendations
-- Reduce friction on the payment entry page by supporting Apple Pay, Google Pay, or other alternative payment methods that minimize manual credit card entry and reduce user submission errors.
-- Partner with the third-party payment processor to investigate vendor-side errors and define a plan to reduce payment failures.
-- Work with the product team to increase the number of subscriptions that initiate the payment process. Since the largest drop-off occurs before users enter the payment portal, payment reminders, notifications, or proactive customer support outreach could significantly improve top-of-funnel conversion.
-- Implement monitoring and alerting for payment errors and funnel drop-offs to track improvements over time and quickly detect regressions following product or vendor changes.
+
+- Prioritize alternative payment methods (e.g., Apple Pay, Google Pay) to reduce manual card entry friction and improve first-attempt payment success rates.  
+- Establish a structured performance review cadence with the third-party payment processor, supported by error-rate dashboards and SLA tracking to proactively reduce vendor-side failures.  
+- Focus on increasing payment initiation by addressing top-of-funnel activation. Given that roughly one-third of subscriptions never start the payment process, targeted reminders, in-product nudges, or proactive outreach could materially improve conversion.  
+- Implement ongoing monitoring and alerting for funnel stage drop-offs and payment errors to measure improvement over time and quickly detect regressions following product or vendor changes.  
+
+---
 
 ## Next Steps
-- Investigate the error breakdown further to determine which errors are most common (user errors or vendor errors)
-- Investigate why subscriptions aren't even starting the payment process. Is it a process issue on our side? Are customers forgetting?
+
+- Investigate the error breakdown to determine whether user-side or vendor-side failures are the primary drivers of payment errors.  
+- Analyze why a significant share of subscriptions never initiate the payment process — assess whether this is due to product friction, unclear user flows, or lack of customer follow-through.
