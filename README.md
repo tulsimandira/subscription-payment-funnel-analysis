@@ -65,7 +65,7 @@ Additionally, payment reliability remains an opportunity area. Vendor-related ou
 
 Overall, the data indicates that improving payment initiation and reducing checkout friction would likely yield the highest conversion lift.
 
-![Payment Funnel Distribution by Order Year](payment_funnel_by_year.png)
+![Payment Funnel Distribution by Order Year](images/payment_funnel_by_year.png)
 
 ---
 
@@ -80,7 +80,7 @@ This visualization tracks the percentage distribution of subscriptions across fu
 
 Overall, the data shows clear post-2019 adoption of the payment workflow and steady improvements in completion rates. Despite this progress, approximately one-third of subscriptions still fail to initiate payment each year, making top-of-funnel engagement the most significant opportunity for conversion lift.
 
-![Year-over-Year Trends](yoy_funnel_trends.png)
+![Year-over-Year Trends](images/yoy_funnel_trends.png)
 
 ---
 
@@ -92,7 +92,7 @@ Out of all subscriptions, 83.05% did not experience a payment error, while 16.95
 
 Importantly, this segment consists of users who have already demonstrated purchase intent. As a result, improving payment reliability (submission validation and third-party processing stability) represents a high-leverage opportunity to drive incremental conversion gains without requiring structural changes to the broader funnel.
 
-![Payment Error Distribution](payment_error_distribution.png)
+![Payment Error Distribution](images/payment_error_distribution.png)
 
 ---
 
