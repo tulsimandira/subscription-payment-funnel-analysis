@@ -19,11 +19,12 @@ These findings highlight two high-impact opportunities: improving payment initia
 
 The finance team observed that a significant number of subscriptions were not converting into paid customers and partnered with the product team to identify where and why users drop off in the payment journey, and whether friction within the online payment portal is negatively impacting conversion rates (the percentage of subscriptions that successfully convert to paid subscriptions).
 
-![Subscription Payment Funnel Flowchart](Flowchart.png)
+![Subscription Payment Funnel Flowchart](images/flowchart.png)
 
-![Payment Funnel Distribution by Order Year](payment_funnel_by_year.png)
+![Payment Funnel Distribution by Order Year](images/payment_funnel_by_year.png)
 
-![Payment Error Distribution](payment_error_distribution.png)
+![Payment Error Distribution](images/payment_error_distribution.png)
+
 
 ---
 
