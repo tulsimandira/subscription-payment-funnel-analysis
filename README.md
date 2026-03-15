@@ -1,7 +1,7 @@
 # Payment Funnel Analysis
 
 🔗 **Live Interactive Notebook (Hex):**  
-https://app.hex.tech/big-sql-energy/hex/Project-1-Payment-Funnel-Analysis-032ORU7WmiwcdAlm0E5Y1l/draft/logic
+https://app.hex.tech/big-sql-energy/app/Project-1---Payment-Funnel-Analysis-032hM74FBIutp0X2G6BrA3/latest
 
 ---
 
