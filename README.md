@@ -65,7 +65,7 @@ Additionally, payment reliability remains an opportunity area. Vendor-related ou
 
 Overall, the data indicates that improving payment initiation and reducing checkout friction would likely yield the highest conversion lift.
 
-![Payment Funnel Distribution by Order Year](images/dashboard_3.png)
+![Payment Funnel Distribution by Order Year](images/dashboard_1.png)
 
 ---
 
