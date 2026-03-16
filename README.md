@@ -21,7 +21,7 @@ The finance team observed that a significant number of subscriptions were not co
 
 ![Subscription Payment Funnel Flowchart](images/flowchart.png)
 
-![Payment Funnel Distribution by Order Year](images/dashboard_1.png)
+![Payment Funnel Distribution by Order Year](images/ddashboard_1.png)
 
 ![Payment Error Distribution](images/dashboard_2.png)
 
@@ -80,7 +80,7 @@ This visualization tracks the percentage distribution of subscriptions across fu
 
 Overall, the data shows clear post-2019 adoption of the payment workflow and steady improvements in completion rates. Despite this progress, approximately one-third of subscriptions still fail to initiate payment each year, making top-of-funnel engagement the most significant opportunity for conversion lift.
 
-![Year-over-Year Trends](images/dashboard2.png)
+![Year-over-Year Trends](images/dashboard_2.png)
 
 ---
 
