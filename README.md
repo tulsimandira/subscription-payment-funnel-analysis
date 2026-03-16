@@ -21,9 +21,9 @@ The finance team observed that a significant number of subscriptions were not co
 
 ![Subscription Payment Funnel Flowchart](images/flowchart.png)
 
-![Payment Funnel Distribution by Order Year](images/payment_funnel_by_year.png)
+![Payment Funnel Distribution by Order Year](images/dashboard_1.png)
 
-![Payment Error Distribution](images/payment_error_distribution.png)
+![Payment Error Distribution](images/dashboard_2.png)
 
 
 ---
@@ -65,7 +65,7 @@ Additionally, payment reliability remains an opportunity area. Vendor-related ou
 
 Overall, the data indicates that improving payment initiation and reducing checkout friction would likely yield the highest conversion lift.
 
-![Payment Funnel Distribution by Order Year](images/payment_funnel_by_year.png)
+![Payment Funnel Distribution by Order Year](images/dashboard_3.png)
 
 ---
 
