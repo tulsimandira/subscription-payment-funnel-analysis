@@ -21,7 +21,7 @@ The finance team observed that a significant number of subscriptions were not co
 
 ![Subscription Payment Funnel Flowchart](images/flowchart.png)
 
-![Payment Funnel Distribution by Order Year](images/ddashboard_1.png)
+![Payment Funnel Distribution by Order Year](images/dashboard_1.png)
 
 ![Payment Error Distribution](images/dashboard_2.png)
 
